@@ -1,0 +1,6 @@
+{
+  "name": "Haven & Form Interiors",
+  "description": "Haven & Form Interiors creates thoughtful residential spaces shaped by natural materials, considered proportions, and understated warmth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

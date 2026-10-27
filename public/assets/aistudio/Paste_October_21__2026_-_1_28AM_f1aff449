@@ -1,0 +1,909 @@
+# GOOGLE AI STUDIO — COMPLETE PRODUCTION-READY WEBSITE BUILD PROMPT
+
+## 1. PROJECT OVERVIEW
+
+Build a complete, premium, fully responsive, production-quality interior design studio website inspired by the uploaded visual reference image.
+
+**Business Type:** Interior Design & Residential Styling Studio\
+**Business Name:** Haven & Form Interiors\
+**Main Goal:** Generate qualified client inquiries, design consultations, and project bookings\
+**Target Audience:** Homeowners, property developers, professionals, and families seeking sophisticated, comfortable, modern residential interiors\
+**Required Sections:** Hero, studio introduction, design philosophy, featured projects, services, project consultation CTA, newsletter subscription, navigation, and footer.
+
+Create an original, client-ready website that captures the reference's sophisticated editorial layout, warm neutral palette, asymmetrical image compositions, generous whitespace, refined typography, and architectural photography.
+
+Do not reproduce the reference image as a static screenshot. Build a real, functional website with original branding, semantic content, reusable components, responsive layouts, working interactions, and maintainable code.
+
+Use the reference image as the primary visual guide throughout development.
+
+## 2. CORE DEVELOPMENT INSTRUCTIONS
+
+Use Google AI Studio's available coding and preview capabilities to build the actual website, not merely describe the design or generate a design concept.
+
+Requirements:
+
+- Build the complete website, including all sections and responsive layouts.
+- Use React, TypeScript, and modern CSS if supported by the selected application environment.
+- Use reusable, modular components with clear separation of concerns.
+- Use semantic HTML and accessible interaction patterns.
+- Use Lucide icons or an equivalent consistent icon library.
+- Use CSS Grid and Flexbox for precise layout control.
+- Keep the code organized, readable, scalable, and easy to maintain.
+- Use realistic content, meaningful navigation, and complete page sections.
+- Make the website functional rather than a collection of decorative elements.
+- Avoid unnecessary dependencies and overly complicated architecture.
+- Fix compilation errors, broken imports, missing assets, and runtime errors before completion.
+- Ensure the application starts successfully and renders correctly in the preview.
+- Do not stop after producing a basic scaffold. Implement the complete experience.
+
+If the environment supports image generation, generate original interior photography assets. Otherwise, use carefully selected, stable, high-quality image URLs from legitimate image sources. Never use broken image URLs, empty image containers, generic gray placeholders, or unfinished asset blocks.
+
+## 3. VISUAL DESIGN DIRECTION
+
+Create a premium editorial website for an interior design studio that communicates calm, natural beauty, craftsmanship, architectural intelligence, and understated luxury.
+
+The website should feel like a carefully art-directed interior design portfolio rather than a conventional corporate template.
+
+### Design characteristics
+
+- Minimalist editorial composition.
+- Warm, natural, residential aesthetic.
+- Oversized black typography.
+- Large architectural photographs.
+- Asymmetrical yet balanced layouts.
+- Generous white space.
+- Warm ivory and off-white surfaces.
+- Restrained terracotta and caramel accents.
+- Natural wood textures and organic materials.
+- Fine borders and subtle rounded corners.
+- Minimal shadows.
+- Strong contrast between typography and photography.
+- Clear visual hierarchy.
+- Spacious section transitions.
+- Refined, intentional alignment.
+
+Use the reference's design principles without copying its exact composition, wording, branding, or identity.
+
+Avoid generic SaaS layouts, excessive gradients, neon colors, glassmorphism, oversized floating elements, excessive card shadows, and unnecessary decorative animations.
+
+## 4. BRAND IDENTITY AND COLOR SYSTEM
+
+Create a distinctive visual identity for Haven & Form Interiors.
+
+Use the following palette as the foundation:
+
+- Primary background: `#FFFFFF`
+- Warm ivory: `#F7F5F2`
+- Soft stone: `#EEEAE5`
+- Primary text: `#171717`
+- Secondary text: `#6B6864`
+- Muted terracotta: `#B77958`
+- Warm caramel: `#C99168`
+- Natural wood brown: `#8A5B3D`
+- Border gray: `#DDD9D4`
+- Deep charcoal: `#252321`
+
+Apply colors consistently using CSS custom properties.
+
+The overall website should remain predominantly white and warm ivory. Use terracotta and caramel sparingly for subtle accents, selected decorative details, and occasional interactive states.
+
+Maintain strong text contrast and accessibility.
+
+### Background styling
+
+Use white as the primary canvas, with selected sections using a very light warm-gray background.
+
+Avoid heavy shadows. Use thin borders, natural photographic contrast, and spacing to establish hierarchy.
+
+If the layout includes an outer page frame on desktop, use a subtle warm-gray surround with a centered white content canvas. Remove this framing on mobile to maximize usable screen space.
+
+## 5. TYPOGRAPHY AND HIERARCHY
+
+Use a refined modern sans-serif typeface such as Inter, Manrope, or a similarly elegant font.
+
+If available, use a distinctive editorial display face for selected large headings while retaining a clean sans-serif for body text and controls.
+
+Typography should feel modern, architectural, and restrained.
+
+### Desktop typography
+
+- Main hero headline: approximately 56–76px.
+- Section headings: approximately 42–58px.
+- Project titles: approximately 16–20px.
+- Body text: approximately 14–16px.
+- Supporting metadata: approximately 11–13px.
+- Navigation and buttons: approximately 12–14px.
+
+Use responsive scaling with `clamp()` rather than rigid font sizes.
+
+### Typography rules
+
+- Headlines should have tight but comfortable line height.
+- Use regular or medium font weights rather than excessively bold text.
+- Maintain short, deliberate line lengths.
+- Use subtle letter spacing where appropriate.
+- Body text should be readable and comfortably spaced.
+- Avoid long blocks of centered body copy.
+- Use left-aligned text for most content and centered alignment for selected editorial headings.
+
+The main headline should be visually dominant without overwhelming the photographs.
+
+## 6. HEADER AND NAVIGATION
+
+Create a clean, minimal header that complements the reference's editorial aesthetic.
+
+### Desktop layout
+
+Place the brand wordmark on the left and navigation links on the right.
+
+Brand:
+
+**Haven & Form**
+
+Use a typographic wordmark rather than a copied or stock logo.
+
+Navigation links:
+
+- Home
+- Studio
+- Services
+- Projects
+- Contact
+
+Include a subtle primary CTA labeled **Book a Consultation**.
+
+The header should have generous horizontal spacing, a white background, and no heavy border or shadow.
+
+Use approximately 60–80px of horizontal page padding on large screens, adjusting according to the viewport.
+
+The header should remain visually lightweight.
+
+### Mobile navigation
+
+Replace the desktop navigation with a compact header containing the wordmark and an accessible menu button.
+
+The mobile menu must open and close properly, expose all navigation links, support keyboard interaction, and close after a navigation selection.
+
+Use a subtle transition for opening and closing the menu.
+
+Ensure there is no horizontal overflow at any breakpoint.
+
+## 7. HERO SECTION: EDITORIAL INTRODUCTION
+
+Create an elegant introductory hero inspired by the reference's combination of oversized typography, concise supporting copy, and large architectural imagery.
+
+### Layout
+
+Use a spacious, two-column introduction.
+
+On desktop:
+
+- Place a large headline on the left.
+- Place a short introductory paragraph on the right.
+- Align the content near the top of the page.
+- Maintain generous spacing beneath the introduction.
+- Avoid conventional centered hero layouts.
+
+Suggested headline:
+
+**Spaces that feel like home. Designed with intention.**
+
+Supporting copy:
+
+"We create thoughtful interiors that balance natural materials, considered proportions, and everyday comfort. Every space is shaped around the people who live in it."
+
+Below the introductory text, create a distinctive asymmetrical composition using three content areas.
+
+### Composition A: Design philosophy panel
+
+Create a wide, pale ivory panel with a heading:
+
+**Designed around the way you live**
+
+Supporting text:
+
+"Every detail has a purpose. We combine thoughtful layouts, tactile materials, and natural tones to create spaces that feel effortless and personal."
+
+Use generous padding, left-aligned text, and a quiet background.
+
+### Composition B: Supporting image and text panel
+
+Create a two-column row.
+
+On the left, show a smaller architectural interior photograph featuring natural materials, plants, timber, and warm daylight.
+
+On the right, show a pale neutral content panel containing:
+
+**Beauty in the everyday**
+
+Supporting text:
+
+"From the first layout decision to the final finishing touch, our approach is grounded in comfort, clarity, and lasting quality."
+
+Keep both elements aligned and balanced.
+
+### Composition C: Main hero photograph
+
+Use a large, high-resolution image of a sophisticated contemporary living space.
+
+The photograph should feature:
+
+- Large architectural windows.
+- Natural timber floors.
+- Warm, neutral furniture.
+- Organic textures.
+- Natural greenery.
+- Sculptural lighting.
+- Soft daylight.
+- A calm, lived-in atmosphere.
+
+Place the main image on the right side of the overall composition where possible.
+
+The image should be substantially taller than the smaller supporting elements, creating the distinctive editorial asymmetry of the reference.
+
+Use a natural rectangular crop with minimal or no border radius.
+
+Do not place excessive text over the main photograph.
+
+### Hero behavior
+
+The hero must adapt intelligently to different screen sizes.
+
+On desktop, preserve the asymmetrical composition.
+
+On tablet, reduce gaps and adjust the grid proportions.
+
+On mobile, stack the content in a logical reading order, allowing the primary photograph to remain visually prominent.
+
+Use subtle entrance animations, such as a gentle opacity transition and slight upward movement. Avoid dramatic zooming or distracting parallax.
+
+## 8. STUDIO INTRODUCTION AND DESIGN PHILOSOPHY
+
+Add a dedicated section that communicates the studio's philosophy and approach.
+
+Use an editorial composition with a strong heading and concise supporting text.
+
+Suggested heading:
+
+**A thoughtful approach to better living**
+
+Supporting copy:
+
+"We believe exceptional interiors are not about following trends. They are about understanding how people live, creating spaces that work beautifully, and selecting materials that grow more meaningful with time."
+
+Include three design principles:
+
+### Considered Design
+
+"Every layout, proportion, and detail is chosen to support a more natural way of living."
+
+### Natural Materials
+
+"We work with warm timber, tactile fabrics, stone, and organic finishes to create depth and character."
+
+### Personal Spaces
+
+"Every project reflects the client's lifestyle, priorities, and individual sense of home."
+
+Present these principles as clean text-led columns or minimal panels rather than generic icon-heavy cards.
+
+Use subtle dividers and generous spacing.
+
+## 9. FEATURED PROJECTS: PORTFOLIO GALLERY
+
+This section should closely follow the reference's use of editorial project photography, understated metadata, and asymmetrical image sizing.
+
+Section heading:
+
+**Selected spaces, thoughtfully considered**
+
+Supporting description:
+
+"A collection of homes shaped by natural materials, meaningful details, and the way people truly live."
+
+Create three featured project cards.
+
+### Project 1: The Willow Residence
+
+Image direction: A warm, inviting living room with a soft beige sofa, muted terracotta cushions, natural timber furniture, indoor plants, and framed artwork.
+
+Project description:
+
+"A welcoming family home built around natural textures, comfortable proportions, and a relaxed neutral palette."
+
+Metadata:
+
+- Project type: Residential Interior
+- Style: Warm Contemporary
+
+### Project 2: The Linden House
+
+Image direction: An open-plan living and dining area with expansive windows, warm oak flooring, a cream sectional sofa, a natural timber dining table, sculptural pendant lighting, and restrained decorative details.
+
+Project description:
+
+"An open, light-filled interior that connects everyday living with thoughtful architectural detail."
+
+Metadata:
+
+- Project type: Living & Dining
+- Style: Contemporary Natural
+
+### Project 3: The Solace Retreat
+
+Image direction: A sophisticated, minimal living space featuring a low-profile sofa, textured neutral upholstery, sculptural timber furniture, warm stone surfaces, abstract artwork, and soft daylight.
+
+Project description:
+
+"A calm residential retreat balancing quiet luxury, clean forms, and tactile natural materials."
+
+Metadata:
+
+- Project type: Residential Interior
+- Style: Modern Organic
+
+### Portfolio layout
+
+Use a three-column asymmetrical grid on desktop.
+
+The middle project can receive a larger image or greater visual prominence, while the left and right projects use smaller image areas.
+
+Keep the image and text alignment intentional.
+
+Each project card should contain:
+
+- A large image.
+- A clear project title.
+- A brief location or project category.
+- A concise description.
+- A minimal **View Project** action.
+
+Do not invent real client identities, testimonials, or precise project addresses. Use the fictional project names above and generic project categories.
+
+### Project interactions
+
+Each project must open a functional project detail view or dedicated project page.
+
+Project detail pages should include:
+
+- Project introduction.
+- Large lead image.
+- Additional project photographs.
+- Design concept.
+- Materials and finishes.
+- Project overview.
+- Consultation CTA.
+
+If building a single-page application, implement a functional project detail route or accessible modal with appropriate navigation and a close action.
+
+Use real project content rather than empty detail pages.
+
+## 10. IMAGE DIRECTION AND ASSET GENERATION
+
+Photography is a central component of the website. Image selection and composition must receive the same attention as typography and layout.
+
+Generate original images when image-generation capabilities are available. Otherwise, source appropriate high-resolution photographs from reliable, publicly accessible image services.
+
+Do not assume that the application can generate images internally unless the required capability is available.
+
+### Required image collection
+
+Prepare a consistent set of images for:
+
+1. Main hero living room.
+2. Secondary architectural interior.
+3. Featured project: The Willow Residence.
+4. Featured project: The Linden House.
+5. Featured project: The Solace Retreat.
+6. Consultation banner background.
+7. Additional project gallery photographs.
+
+Use landscape-oriented photography for most portfolio cards and wide banner images.
+
+Use appropriate crops for different layout proportions rather than stretching images.
+
+### Image aesthetic
+
+Every image should feel like it belongs to the same premium interior design publication.
+
+Prioritize:
+
+- Photorealistic contemporary residential interiors.
+- Warm natural daylight.
+- Natural oak and walnut finishes.
+- Ivory, sand, beige, and muted terracotta.
+- Linen, wool, stone, ceramic, and timber textures.
+- Indoor plants used with restraint.
+- Comfortable, lived-in furniture arrangements.
+- Architectural compositions with depth.
+- Realistic proportions and material rendering.
+- Professional architectural photography.
+
+Avoid artificial-looking interiors, exaggerated HDR, oversaturated colors, obvious AI artifacts, distorted furniture, duplicate compositions, excessive decoration, watermarks, visible text, and unrelated exterior imagery.
+
+### Image implementation
+
+- Use responsive image sizing and appropriate `object-fit: cover`.
+- Assign meaningful alt text.
+- Use consistent image ratios within comparable card positions.
+- Use `srcset` or an equivalent responsive-image strategy when supported.
+- Lazy-load below-the-fold images.
+- Prioritize loading the main hero image.
+- Reserve image space to prevent layout shifts.
+- Add graceful loading and error handling.
+- Never leave a broken image icon or an empty image box visible.
+- Ensure all remote image URLs are valid and usable.
+
+If an image source fails, use a verified fallback image from the same category. Do not silently replace photographs with blank containers or colored rectangles.
+
+## 11. CONVERSION-FOCUSED CONSULTATION BANNER
+
+Create a wide, visually striking CTA banner immediately before the footer.
+
+Use a large architectural interior photograph featuring two sculptural lounge chairs, a low table, warm timber or stone details, and soft natural lighting.
+
+Apply a subtle darkened overlay only if necessary to preserve text readability.
+
+Center the content within the image area or position it slightly off-center for an editorial composition.
+
+Suggested heading:
+
+**Let's create a home that feels unmistakably yours.**
+
+Supporting text:
+
+"Tell us about your space, your ideas, and how you want to live. We'll help you shape the next step."
+
+Primary CTA:
+
+**Start Your Project**
+
+The CTA must open a functional consultation form or navigate to a dedicated contact section.
+
+The banner should feel premium and spacious, with the photograph occupying most of the visual area.
+
+Avoid excessive text, heavy overlays, decorative gradients, or oversized button treatments.
+
+### Consultation form
+
+Create a polished form containing:
+
+- Full name.
+- Email address.
+- Phone number, optional.
+- Project type.
+- Preferred consultation method.
+- Brief project description.
+- Estimated project budget, optional.
+- Preferred timeframe, optional.
+- Consent checkbox where required.
+
+Validate required fields and email formatting.
+
+Display useful inline error messages.
+
+Provide loading, success, and failure states.
+
+Do not display a success message unless the submission actually succeeds.
+
+If no backend or form service is configured, provide a clearly documented integration point and a usable development fallback. Never pretend that an inquiry has been delivered to the business when it has not.
+
+## 12. SERVICES SECTION
+
+Create a dedicated services section that explains what the studio offers.
+
+Use a restrained editorial layout with large headings, concise descriptions, and optional supporting images.
+
+Include the following services:
+
+### Full-Service Interior Design
+
+"From concept development to final styling, we coordinate the design process to create a cohesive and considered home."
+
+### Space Planning
+
+"Improve the flow, functionality, and proportions of your interior with layouts tailored to your daily routines."
+
+### Material & Finish Selection
+
+"Bring your space together through carefully selected timber, stone, textiles, lighting, and complementary finishes."
+
+### Interior Styling
+
+"Complete your interior with furniture, artwork, accessories, and finishing details that feel personal and balanced."
+
+### Design Consultation
+
+"Get expert guidance, practical recommendations, and a clearer direction for your next interior project."
+
+Every service should have a clear description and an appropriate action, such as **Discuss Your Project**.
+
+All service actions must lead to a relevant consultation form or contact destination.
+
+Keep this section visually light. Avoid a dense grid of repetitive cards.
+
+## 13. FOOTER DESIGN
+
+Create a spacious, minimal footer inspired by the reference's combination of studio introduction, navigation, email signup, and social links.
+
+Use a white background with generous top and bottom padding.
+
+### Left column
+
+Display the brand wordmark:
+
+**Haven & Form**
+
+Supporting description:
+
+"We create thoughtful interiors shaped by natural materials, refined details, and the everyday rituals that make a house feel like home."
+
+Below the description, include a newsletter form with:
+
+- Email address field.
+- **Join Our Journal** button.
+
+### Right column
+
+Organize navigation links into a clean, compact layout:
+
+- Home
+- Studio
+- Services
+- Projects
+- Contact
+- Privacy Policy
+
+Include social links for Instagram and Pinterest only when valid destinations are configured.
+
+Do not invent social profile URLs.
+
+### Footer bottom
+
+Include a restrained copyright line:
+
+"© [current year] Haven & Form Interiors. All rights reserved."
+
+Generate the year dynamically.
+
+Use subtle borders, understated icon buttons, and carefully aligned content.
+
+### Newsletter functionality
+
+Validate the email field and display accessible feedback.
+
+If a newsletter service is not connected, provide a documented integration point and an appropriate development fallback. Never falsely claim that a subscriber has been added to a mailing list.
+
+## 14. BUTTONS AND INTERACTIVE ELEMENTS
+
+Use understated, pill-shaped or softly rounded buttons consistent with the reference.
+
+### Primary button
+
+- White or near-white background where appropriate.
+- Dark text.
+- Thin dark border.
+- Generous horizontal padding.
+- Compact, readable typography.
+- Rounded pill silhouette.
+- Smooth transition.
+
+### Secondary button
+
+- Transparent background.
+- Fine dark border.
+- Dark text.
+- Minimal visual weight.
+
+### Hover behavior
+
+On hover:
+
+- Slightly darken the background or invert the foreground and background.
+- Transition the border color smoothly.
+- Use a subtle 150–250ms transition.
+- Maintain visible focus indicators.
+- Avoid exaggerated scaling, bouncing, or glow effects.
+
+Every button must have a meaningful, working action.
+
+Do not create decorative buttons that appear interactive but do nothing.
+
+Use semantic buttons for actions and links for navigation.
+
+## 15. ANIMATIONS AND MICRO-INTERACTIONS
+
+Use restrained motion to make the website feel polished without distracting from the photography.
+
+Implement the following where appropriate:
+
+- Gentle hero text entrance.
+- Subtle fade-and-rise transitions for sections.
+- Staggered reveal of project cards.
+- Small image-scale changes on project-card hover.
+- Smooth navigation transitions.
+- Subtle button color transitions.
+- Mobile menu opening and closing animations.
+- Smooth anchor scrolling.
+- Lightweight form interaction feedback.
+
+Use Intersection Observer or a comparable technique for scroll-triggered reveals when appropriate.
+
+Animations should be brief, natural, and unobtrusive.
+
+Respect `prefers-reduced-motion` and disable or simplify nonessential animation when requested by the operating system.
+
+Avoid constant animation loops, heavy parallax, excessive blur effects, and scroll-jacking.
+
+Ensure all essential content remains visible if JavaScript animations fail.
+
+## 16. RESPONSIVE DESIGN REQUIREMENTS
+
+The website must work beautifully on desktop, tablet, and mobile.
+
+Do not simply shrink the desktop design. Adapt the composition to each viewport.
+
+### Large desktop: 1440px and above
+
+- Use a centered content container with a maximum width around 1280px.
+- Preserve generous whitespace.
+- Maintain the asymmetrical hero composition.
+- Use large editorial typography.
+- Display the featured projects in a balanced three-column grid.
+- Keep photographs large and visually dominant.
+
+### Standard desktop: 1024–1439px
+
+- Reduce horizontal padding proportionally.
+- Preserve the two-column hero where possible.
+- Adjust image ratios and heading sizes.
+- Maintain comfortable spacing between sections.
+- Prevent content from touching the viewport edges.
+
+### Tablet: 768–1023px
+
+- Reduce typography and layout gaps.
+- Adapt the hero to a narrower two-column layout or a carefully stacked composition.
+- Use two columns for featured projects when appropriate.
+- Keep text readable.
+- Avoid cramped navigation.
+- Ensure CTA banners remain visually balanced.
+
+### Mobile: 320–767px
+
+- Use a single-column layout for the main content.
+- Reduce outer horizontal padding to approximately 18–24px.
+- Use a compact mobile header.
+- Scale headings with `clamp()` and prevent awkward line breaks.
+- Stack hero text, supporting panels, and photographs in a deliberate reading order.
+- Display portfolio projects vertically.
+- Ensure project metadata and actions are easy to read and tap.
+- Make buttons comfortably touch-friendly.
+- Keep consultation forms within the viewport.
+- Use full-width CTA buttons when appropriate.
+- Reduce decorative whitespace without losing the premium aesthetic.
+- Prevent horizontal scrolling.
+- Avoid tiny text, clipped headings, overlapping images, and cramped form controls.
+
+Test the layouts at widths of 320px, 375px, 430px, 768px, 1024px, 1280px, and 1440px.
+
+All major sections must remain complete and functional at every breakpoint.
+
+## 17. ACCESSIBILITY AND USABILITY
+
+Implement accessibility as a core requirement.
+
+Include:
+
+- Semantic HTML landmarks.
+- A logical heading hierarchy.
+- Descriptive alt text for meaningful images.
+- Keyboard-accessible navigation.
+- Visible keyboard focus indicators.
+- Proper labels for every form field.
+- Accessible error messages.
+- Appropriate ARIA attributes only where needed.
+- Sufficient color contrast.
+- Reduced-motion support.
+- Clear link and button labels.
+- Correct form autocomplete attributes.
+- No keyboard traps.
+- Accessible mobile navigation.
+- Meaningful page titles and metadata.
+
+Do not rely on color alone to communicate errors or status.
+
+Ensure the website remains usable with a keyboard and screen reader.
+
+## 18. FUNCTIONALITY AND BACKEND INTEGRATION
+
+Build the frontend so it is ready for genuine business use.
+
+### Navigation
+
+- Every navigation link must lead to the correct section or route.
+- Internal anchors must scroll to the appropriate destination.
+- Mobile navigation must function correctly.
+- Unknown routes should display a helpful not-found page when routing is implemented.
+
+### Project portfolio
+
+- Each project must open its detail view or page.
+- Gallery images must render correctly.
+- Project content must be structured and reusable.
+
+### Consultation inquiries
+
+- Implement client-side validation.
+- Prepare a clean submission interface for a backend or form service.
+- Prevent duplicate submissions while a request is processing.
+- Display accurate success and failure feedback.
+- Do not expose private credentials or API keys in client-side code.
+
+### Newsletter
+
+- Validate email addresses.
+- Prepare the form for integration with an email marketing service.
+- Do not simulate a successful external subscription.
+
+### Backend requirements
+
+If a backend is required and the environment supports it, implement an appropriate secure server-side integration.
+
+Keep secrets in environment variables.
+
+Provide an `.env.example` file containing variable names and safe example values, never real credentials.
+
+Document all required configuration.
+
+If the deployment environment does not support a backend, keep the frontend functional and clearly identify which integrations require external configuration.
+
+Never invent API credentials, pretend to connect an external service, or claim that an unconfigured feature is production-ready.
+
+## 19. SEO AND PERFORMANCE
+
+Implement essential technical SEO and performance practices.
+
+Include:
+
+- A descriptive page title.
+- A concise meta description.
+- Appropriate heading structure.
+- Open Graph metadata.
+- A favicon or simple original typographic brand mark.
+- Descriptive image alt attributes.
+- Canonical URL configuration when the production domain is known.
+- Responsive images.
+- Lazy loading below the fold.
+- Prioritized hero image loading.
+- Font loading optimization.
+- Minimal unnecessary JavaScript.
+- Clean console output.
+- Stable layouts with reserved image dimensions.
+- Search-engine-friendly semantic content.
+
+Suggested page title:
+
+"Haven & Form Interiors | Thoughtful Residential Design"
+
+Suggested meta description:
+
+"Discover thoughtful residential interiors shaped by natural materials, considered layouts, and timeless design. Start your next interior design project with Haven & Form."
+
+Do not invent business addresses, phone numbers, reviews, awards, credentials, or client testimonials.
+
+## 20. CODE QUALITY AND PROJECT STRUCTURE
+
+Use a clean and maintainable project structure suitable for future development.
+
+A suggested organization is:
+
+- `src/components/` — shared UI components.
+- `src/sections/` — hero, philosophy, services, portfolio, CTA, and footer sections.
+- `src/pages/` — main page and project detail pages, if routing is implemented.
+- `src/data/` — project and service content.
+- `src/assets/` — local image assets and other static resources.
+- `src/styles/` — global styles, design tokens, and responsive styles.
+- `src/lib/` — utility functions and integration helpers.
+
+Adapt the structure to the existing project if one is already provided. Do not overwrite useful existing code unnecessarily.
+
+Use reusable components for:
+
+- Header.
+- Navigation.
+- Buttons.
+- Project cards.
+- Service items.
+- Forms.
+- Consultation banner.
+- Footer.
+- Shared layout containers.
+
+Avoid giant components, repeated hardcoded markup, inconsistent spacing, and unnecessary abstractions.
+
+Use strict TypeScript types where applicable.
+
+Keep business content separate from presentation where practical.
+
+## 21. DESIGN CONSISTENCY RULES
+
+Throughout the entire website:
+
+- Maintain a consistent spacing system.
+- Use a small, intentional set of typography sizes.
+- Keep image proportions consistent within related components.
+- Use the same button language across all sections.
+- Maintain consistent alignment between section headings and content.
+- Preserve generous whitespace.
+- Keep borders subtle.
+- Use the warm neutral palette consistently.
+- Let photography provide most of the visual richness.
+- Keep copy concise and natural.
+- Use clear CTAs without aggressive sales language.
+- Avoid unnecessary decorative icons.
+- Avoid excessive rounded cards.
+- Avoid gradients unless they are exceptionally subtle and serve a clear purpose.
+- Avoid random changes in background color between every section.
+
+The result should feel like one carefully art-directed website, not several unrelated templates assembled together.
+
+## 22. FINAL IMPLEMENTATION AND QUALITY ASSURANCE
+
+Before declaring the project complete, inspect and test the actual implementation.
+
+Verify the following:
+
+1. The application starts without errors.
+2. All major sections are implemented.
+3. The overall design matches the visual direction of the reference.
+4. The desktop hero preserves an editorial, asymmetrical composition.
+5. The typography hierarchy is polished and consistent.
+6. All photographs load successfully.
+7. No image placeholders or empty image boxes remain.
+8. No content is clipped or overlapping.
+9. The mobile layout works at narrow widths.
+10. The tablet layout is balanced.
+11. All navigation links work.
+12. The mobile menu opens and closes.
+13. Every project card opens a meaningful detail view or page.
+14. Consultation forms validate correctly.
+15. Newsletter forms provide accurate feedback.
+16. No unconfigured external integrations falsely report success.
+17. Buttons have working actions.
+18. Keyboard focus is visible.
+19. Reduced-motion preferences are respected.
+20. No horizontal overflow appears at tested breakpoints.
+21. No missing imports, broken routes, or unresolved dependencies remain.
+22. No critical console errors remain.
+23. The footer is complete and properly aligned.
+24. The page loads with stable image dimensions.
+25. The final experience feels cohesive, premium, professional, and client-ready.
+
+If you encounter a visual or functional defect, fix it before finishing.
+
+Do not merely report issues. Resolve them wherever the available environment allows.
+
+## 23. FINAL CREATIVE DIRECTION
+
+The finished website should communicate the feeling of entering a thoughtfully designed home: calm, warm, balanced, natural, and personal.
+
+Its strongest visual features should be:
+
+- Oversized editorial typography.
+- A warm, sophisticated neutral palette.
+- Architectural interior photography.
+- Asymmetrical image compositions.
+- Large areas of clean white space.
+- Minimal, refined controls.
+- Carefully arranged project imagery.
+- An elegant consultation banner.
+- A complete, understated footer.
+
+The design should remain recognizably inspired by the reference while being an original brand experience for Haven & Form Interiors.
+
+Prioritize design quality, functional completeness, accessibility, responsive behavior, image quality, maintainability, and conversion clarity equally.
+
+**FINAL INSTRUCTION:** Build the complete working website now. Generate or source the required images, implement all sections, wire up the available interactions, test the responsive layouts, fix errors, and refine the final visual result. Do not return only a plan, tutorial, wireframe, or code outline. Deliver the actual website implementation in the available Google AI Studio environment, with any external configuration requirements clearly documented.
+
+Add a clear project scope and build orderDefine the exact Google AI Studio stack

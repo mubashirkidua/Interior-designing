@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-primary: #FFFFFF;
+    --color-bg-ivory: #F7F5F2;
+    --color-bg-stone: #EEEAE5;
+    --color-text-primary: #171717;
+    --color-text-secondary: #6B6864;
+    --color-terracotta: #B77958;
+    --color-caramel: #C99168;
+    --color-wood: #8A5B3D;
+    --color-border: #DDD9D4;
+    --color-charcoal: #252321;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: var(--color-text-primary);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom scrollbar for subtle aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F5F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDD9D4;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C99168;
+}
+
+/* Custom Architectural Range Slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #DDD9D4;
+  height: 6px;
+  border-radius: 9999px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -6px;
+  background-color: #171717;
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  border: 2px solid #C99168;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.18);
+  background-color: #C99168;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  transform: scale(0.95);
+  background-color: #B77958;
+}
+
+input[type="range"]::-moz-range-track {
+  background: #DDD9D4;
+  height: 6px;
+  border-radius: 9999px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background-color: #171717;
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  border: 2px solid #C99168;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  transform: scale(1.18);
+  background-color: #C99168;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
