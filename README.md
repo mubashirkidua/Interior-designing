@@ -277,7 +277,9 @@ graph TD
 ├── vite.config.ts              # Vite 8 configuration with React and Tailwind CSS v4 plugins
 │
 ├── public/                     # Static assets served at web root
-│   └── assets/aistudio/        # CEO headshots and public reference media
+│   └── assets/                 # Production-served media (copied to /dist on build)
+│       ├── images/             # High-resolution architectural photography & projects
+│       └── aistudio/           # CEO headshots and brand assets
 │
 └── src/                        # Main application source directory
     ├── App.tsx                 # Root component orchestrating page layouts, modals, and navigation

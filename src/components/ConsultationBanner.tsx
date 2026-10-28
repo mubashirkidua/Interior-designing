@@ -11,7 +11,7 @@ export const ConsultationBanner: React.FC<ConsultationBannerProps> = ({ onOpenCo
       <div className="relative w-full aspect-16/9 sm:aspect-21/9 min-h-[360px] sm:min-h-[420px] lg:min-h-[500px] rounded-sm overflow-hidden border border-[#DDD9D4] shadow-sm flex items-center justify-center text-center p-6 sm:p-10">
         {/* Background Architectural Photograph */}
         <img
-          src="/src/assets/images/consultation_lounge_chairs_1792528338761.jpg"
+          src="/assets/images/consultation_lounge_chairs_1792528338761.jpg"
           alt="Two sculptural terracotta and caramel lounge chairs beside a travertine table in a sunlit living space"
           loading="lazy"
           referrerPolicy="no-referrer"

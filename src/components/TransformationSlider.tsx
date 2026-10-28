@@ -129,7 +129,7 @@ export const TransformationSlider: React.FC<TransformationSliderProps> = ({ onCo
       >
         {/* AFTER Image (Full background container) */}
         <img
-          src="/src/assets/images/transform_luxury_after_1792604056627.jpg"
+          src="/assets/images/transform_luxury_after_1792604056627.jpg"
           alt="Completed luxury residence by The Ocean Interiors"
           className="absolute inset-0 w-full h-full object-cover"
           draggable={false}
@@ -149,7 +149,7 @@ export const TransformationSlider: React.FC<TransformationSliderProps> = ({ onCo
           style={{ width: `${sliderPosition}%` }}
         >
           <img
-            src="/src/assets/images/transform_raw_before_1792604056109.jpg"
+            src="/assets/images/transform_raw_before_1792604056109.jpg"
             alt="Raw unfinished site before renovation"
             className="absolute inset-0 w-full h-full object-cover max-w-none"
             style={{ width: containerRef.current ? `${containerRef.current.clientWidth}px` : '100%' }}

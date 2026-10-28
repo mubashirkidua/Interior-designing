@@ -210,7 +210,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenConsultatio
             {/* Left Image: Natural Materials Reading Corner */}
             <div className="relative aspect-4/3 sm:aspect-square overflow-hidden rounded-sm group bg-[#EEEAE5]">
               <img
-                src="/src/assets/images/hero_architectural_detail_1792528336146.jpg"
+                src="/assets/images/hero_architectural_detail_1792528336146.jpg"
                 alt="Minimalist reading corner with white oak shelving, handmade ceramic vessels, and linen armchair in morning light"
                 loading="eager"
                 referrerPolicy="no-referrer"
@@ -281,7 +281,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenConsultatio
           ) : (
             <div className="relative w-full h-full min-h-[440px] lg:min-h-[580px] overflow-hidden rounded-sm group bg-[#EEEAE5] border border-[#DDD9D4]/40 shadow-xs">
               <img
-                src="/src/assets/images/hero_double_height_living_1792528335195.jpg"
+                src="/assets/images/hero_double_height_living_1792528335195.jpg"
                 alt="Double-height architectural living room with natural oak open staircase, woven rattan pendant lights, neutral linen sofa, and lush garden view"
                 loading="eager"
                 referrerPolicy="no-referrer"

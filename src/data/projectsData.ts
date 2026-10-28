@@ -23,11 +23,11 @@ export const FEATURED_PROJECTS: Project[] = [
     category: 'Full Residence',
     style: 'Warm Contemporary',
     summary: 'A welcoming family home built around natural textures, comfortable proportions, and a relaxed neutral palette.',
-    mainImage: '/src/assets/images/project_willow_residence_1792528337504.jpg',
+    mainImage: '/assets/images/project_willow_residence_1792528337504.jpg',
     detailImages: [
-      '/src/assets/images/project_willow_residence_1792528337504.jpg',
-      '/src/assets/images/hero_architectural_detail_1792528336146.jpg',
-      '/src/assets/images/consultation_lounge_chairs_1792528338761.jpg'
+      '/assets/images/project_willow_residence_1792528337504.jpg',
+      '/assets/images/hero_architectural_detail_1792528336146.jpg',
+      '/assets/images/consultation_lounge_chairs_1792528338761.jpg'
     ],
     scope: 'Full Interior Architecture & Custom Furnishing',
     squareFeet: '3,450 sq ft',
@@ -54,11 +54,11 @@ export const FEATURED_PROJECTS: Project[] = [
     category: 'Living & Dining',
     style: 'Contemporary Natural',
     summary: 'A welcoming family home built around natural textures, comfortable proportions, and a relaxed neutral palette.',
-    mainImage: '/src/assets/images/project_linden_house_1792528337700.jpg',
+    mainImage: '/assets/images/project_linden_house_1792528337700.jpg',
     detailImages: [
-      '/src/assets/images/project_linden_house_1792528337700.jpg',
-      '/src/assets/images/hero_double_height_living_1792528335195.jpg',
-      '/src/assets/images/hero_architectural_detail_1792528336146.jpg'
+      '/assets/images/project_linden_house_1792528337700.jpg',
+      '/assets/images/hero_double_height_living_1792528335195.jpg',
+      '/assets/images/hero_architectural_detail_1792528336146.jpg'
     ],
     scope: 'Open-Concept Living, Dining & Garden Integration',
     squareFeet: '3,450 sq ft',
@@ -85,11 +85,11 @@ export const FEATURED_PROJECTS: Project[] = [
     category: 'Retreats',
     style: 'Modern Organic',
     summary: 'A welcoming family home built around natural textures, comfortable proportions, and a relaxed neutral palette.',
-    mainImage: '/src/assets/images/project_solace_retreat_1792528338769.jpg',
+    mainImage: '/assets/images/project_solace_retreat_1792528338769.jpg',
     detailImages: [
-      '/src/assets/images/project_solace_retreat_1792528338769.jpg',
-      '/src/assets/images/consultation_lounge_chairs_1792528338761.jpg',
-      '/src/assets/images/hero_architectural_detail_1792528336146.jpg'
+      '/assets/images/project_solace_retreat_1792528338769.jpg',
+      '/assets/images/consultation_lounge_chairs_1792528338761.jpg',
+      '/assets/images/hero_architectural_detail_1792528336146.jpg'
     ],
     scope: 'Full Residence Transformation & Art Curation',
     squareFeet: '3,450 sq ft',
@@ -116,11 +116,11 @@ export const FEATURED_PROJECTS: Project[] = [
     category: 'Living & Dining',
     style: 'Urban Minimalist',
     summary: 'A welcoming family home built around natural textures, comfortable proportions, and a relaxed neutral palette.',
-    mainImage: '/src/assets/images/project_highline_penthouse_1792567664696.jpg',
+    mainImage: '/assets/images/project_highline_penthouse_1792567664696.jpg',
     detailImages: [
-      '/src/assets/images/project_highline_penthouse_1792567664696.jpg',
-      '/src/assets/images/hero_double_height_living_1792528335195.jpg',
-      '/src/assets/images/consultation_lounge_chairs_1792528338761.jpg'
+      '/assets/images/project_highline_penthouse_1792567664696.jpg',
+      '/assets/images/hero_double_height_living_1792528335195.jpg',
+      '/assets/images/consultation_lounge_chairs_1792528338761.jpg'
     ],
     scope: 'Full Penthouse Architecture & Furniture Curation',
     squareFeet: '3,450 sq ft',
@@ -147,11 +147,11 @@ export const FEATURED_PROJECTS: Project[] = [
     category: 'Full Residence',
     style: 'Warm Coastal',
     summary: 'A welcoming family home built around natural textures, comfortable proportions, and a relaxed neutral palette.',
-    mainImage: '/src/assets/images/project_coastal_villa_1792567665247.jpg',
+    mainImage: '/assets/images/project_coastal_villa_1792567665247.jpg',
     detailImages: [
-      '/src/assets/images/project_coastal_villa_1792567665247.jpg',
-      '/src/assets/images/hero_architectural_detail_1792528336146.jpg',
-      '/src/assets/images/project_willow_residence_1792528337504.jpg'
+      '/assets/images/project_coastal_villa_1792567665247.jpg',
+      '/assets/images/hero_architectural_detail_1792528336146.jpg',
+      '/assets/images/project_willow_residence_1792528337504.jpg'
     ],
     scope: 'New-Build Coastal Residence Interior Design',
     squareFeet: '3,450 sq ft',
@@ -178,11 +178,11 @@ export const FEATURED_PROJECTS: Project[] = [
     category: 'Retreats',
     style: 'Japandi Minimalist',
     summary: 'A welcoming family home built around natural textures, comfortable proportions, and a relaxed neutral palette.',
-    mainImage: '/src/assets/images/project_kyoto_pavilion_1792567666379.jpg',
+    mainImage: '/assets/images/project_kyoto_pavilion_1792567666379.jpg',
     detailImages: [
-      '/src/assets/images/project_kyoto_pavilion_1792567666379.jpg',
-      '/src/assets/images/project_solace_retreat_1792528338769.jpg',
-      '/src/assets/images/hero_architectural_detail_1792528336146.jpg'
+      '/assets/images/project_kyoto_pavilion_1792567666379.jpg',
+      '/assets/images/project_solace_retreat_1792528338769.jpg',
+      '/assets/images/hero_architectural_detail_1792528336146.jpg'
     ],
     scope: 'Architectural Interior Renovation & Tea Room',
     squareFeet: '3,450 sq ft',
